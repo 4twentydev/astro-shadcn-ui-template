@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { buttonVariants } from "../components/ui/button";
+import Hero from "./components/HeroSEO.astro"
 ---
 
 <BaseLayout
@@ -8,6 +9,7 @@ import { buttonVariants } from "../components/ui/button";
   description="A modern starter for web projects."
 >
   <section class="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+<Hero /> 
     <div class="flex max-w-[980px] flex-col items-start gap-2">
       <h1 class="text-4xl font-bold text-primary">Welcome to 4twenty.dev</h1>
       <p class="text-lg text-gray-600">
