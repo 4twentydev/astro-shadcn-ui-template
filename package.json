@@ -1,9 +1,10 @@
 {
-  "name": "@area44/astro-shadcn-ui-template",
-  "version": "25.01.27",
-  "description": "An Astro template for building apps.",
+  "name": "4twentydev",
+  "version": "0.1.0",
+  "description": "A modern starter for building web apps",
   "author": {
-    "name": "AREA44"
+    "name": "Brandon York",
+    "email": "4twenty.dev@gmail.com"
   },
   "license": "MIT",
   "scripts": {
