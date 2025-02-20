@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "../components/ui/button";
 ---
 
 <BaseLayout
@@ -9,33 +9,15 @@ import { buttonVariants } from "@/components/ui/button";
 >
   <section class="container grid items-center gap-6 pt-6 pb-8 md:py-10">
     <div class="flex max-w-[980px] flex-col items-start gap-2">
-      <h1
-        class="text-3xl leading-tight font-extrabold tracking-tighter md:text-4xl"
-      >
-        Astro Shadcn UI Template <br class="hidden sm:inline" />
-        built with Radix UI and Tailwind CSS.
-      </h1>
-      <p class="text-muted-foreground max-w-[700px] text-lg">
-        Accessible and customizable components that you can copy and paste into
-        your apps. Free. Open Source.
+      <h1 class="text-4xl font-bold text-primary">Welcome to 4twenty.dev</h1>
+      <p class="text-lg text-gray-600">
+        A modern starter for web projects.
       </p>
-    </div>
-    <div class="flex gap-4">
       <a
-        href="https://ui.shadcn.com"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants()}
+        href="/docs"
+        class={buttonVariants({ variant: 'default' })}
       >
-        Documentation
-      </a>
-      <a
-        href="https://github.com/AREA44/astro-shadcn-ui-template"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants({ variant: 'outline' })}
-      >
-        GitHub
+        Get Started
       </a>
     </div>
   </section>
